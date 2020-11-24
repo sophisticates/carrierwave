@@ -9,14 +9,14 @@ Gem::Specification.new do |s|
   s.name = "carrierwave"
   s.version = CarrierWave::VERSION
 
-  s.authors = ["Jonas Nicklas"]
+  s.authors = ["Julian J. Schrader"]
   s.date = Date.today
   s.description = "Upload files in your Ruby applications, map them to a range of ORMs, store them on different backends."
   s.summary = "Ruby file upload library"
-  s.email = ["jonas.nicklas@gmail.com"]
+  s.email = ["jjs@sophisticates.de"]
   s.extra_rdoc_files = ["README.md"]
   s.files = Dir.glob("{bin,lib}/**/*") + %w(README.md)
-  s.homepage = %q{https://github.com/carrierwaveuploader/carrierwave}
+  s.homepage = %q{https://github.com/sophisticates/carrierwave}
   s.rdoc_options = ["--main"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{carrierwave}
